@@ -152,18 +152,20 @@ const Home: React.FC = () => {
                     Ready to simplify your shopping?
                   </h2>
                   <p className="mt-3 max-w-lg text-lg text-blue-100">
-                    Join thousands of users who have already streamlined their shopping experience.
-                    Get started for free today!
+                    Download our app and get started for free today!
                   </p>
                 </div>
                 <div className="mt-8 lg:mt-0 lg:ml-8">
-                  <Button
-                    size="lg"
-                    onClick={() => navigate('/register')}
-                    className="bg-[rgba(29,78,216,255)] text-white hover:bg-blue-700"
+                  <a
+                    href="#"
+                    className="inline-block"
                   >
-                    Sign Up Now
-                  </Button>
+                    <img 
+                      src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/fr-fr?size=250x83"
+                      alt="Télécharger dans l'App Store"
+                      className="h-12"
+                    />
+                  </a>
                 </div>
               </div>
             </div>
