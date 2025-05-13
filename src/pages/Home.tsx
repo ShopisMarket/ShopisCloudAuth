@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { ShoppingBag, Share, DollarSign, Check } from 'lucide-react';
 import Header from '../components/layout/Header';
 import Button from '../components/ui/Button';
+import DownloadButtons from '../components/ui/DownloadButtons';
 
 const Home: React.FC = () => {
   const navigate = useNavigate();
@@ -156,16 +157,7 @@ const Home: React.FC = () => {
                   </p>
                 </div>
                 <div className="mt-8 lg:mt-0 lg:ml-8">
-                  <a
-                    href="#"
-                    className="inline-block"
-                  >
-                    <img 
-                      src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/fr-fr?size=250x83"
-                      alt="Télécharger dans l'App Store"
-                      className="h-12"
-                    />
-                  </a>
+                  <DownloadButtons />
                 </div>
               </div>
             </div>
