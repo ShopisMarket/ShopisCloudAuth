@@ -21,7 +21,7 @@ const Header: React.FC = () => {
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
               <ShoppingBag className="h-8 w-8 text-blue-600" />
-              <span className="ml-2 text-xl font-bold text-gray-900">ShoppingListApp</span>
+              <span className="ml-2 text-xl font-bold text-gray-900">Shopis</span>
             </Link>
           </div>
           
